@@ -179,6 +179,9 @@ function addNewArrivalsItems(data) {
             event.preventDefault()
             event.stopPropagation()
           } else {
+            localStorage.clear();
+            loadProductFromLS();
+            loadQuantity();
             alert('Payment processed. Thanks for your order!')
           }
           form.classList.add('was-validated')
@@ -209,12 +212,6 @@ function loadModal() {
         document.getElementById("exampleModal").appendChild(div);
         loadProductFromLS();
     } 
-}
-
-function clearStorage(){
-    localStorage.clear();
-    loadProductFromLS();
-    loadQuantity();
 }
 
 function addProduct(id){
