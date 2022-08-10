@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="all-products.html">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item active" href="popular-items.html">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="new-arrivals.html">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#exampleModal">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span  id="cart" class="badge bg-turquoise-light text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img class="d-block w-100 containerSlide" src="https://picsum.photos/1000/300?phones=1" alt="First slide">
+                <div class="text-center textSlide">
+                    <h1 class="display-4 fw-bolder">New Items</h1>
+                    <p class="lead fw-normal mb-0">Summer template</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 containerSlide" src="https://picsum.photos/1000/300?phones=2" alt="Second slide">
+                <div class="text-center textSlide">
+                    <h1 class="display-4 fw-bolder ">Best sellers</h1>
+                    <p class="lead fw-normal mb-0">With this shop template</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 containerSlide" src="https://picsum.photos/1000/300?phones=3" alt="Third slide">
+                <div class="text-center textSlide">
+                    <h1 class="display-4 fw-bolder ">Get your product</h1>
+                    <p class="lead fw-normal mb-0">With this template</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="text-center">
+            <ul class="nav-popular-items me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item "><a class="nav-link nav-popu-item" aria-current="page" href="#tendency">Tendency</a></li>
+                <li class="nav-item"><a class="nav-link nav-popu-item" aria-current="page" href="#popularitems">Popular Items</a></li>
+                <li class="nav-item"><a class="nav-link nav-popu-item" aria-current="page" href="#moreinfo">More Info</a></li>
+            </ul>
+        </div>
+
+        <!-- Accordion-->
+        <div class="container">
+
+            <div class="row justify-content-center py-5">
+                <div class="col mb-8">
+                    <h6 class="text-center" id="tendency">TENDENCY</h6>
+                    <h1 class="text-center pb-5">About popular products</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint perspiciatis minima tempora odio laborum velit reprehenderit. Quidem sit corrupti ex ut voluptas, ea blanditiis fuga ipsam error, eaque, nobis neque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint perspiciatis minima tempora odio laborum velit reprehenderit. Quidem sit corrupti ex ut voluptas, ea blanditiis fuga ipsam error, eaque, nobis neque.</p>
+                </div>
+                <div class="col mb-4">
+                    <img src="https://picsum.photos/450/300?phones=1" alt="..." />
+                </div>
+            </div>
+            <h6 class="text-center pt-5" id="popularitems">POPULAR ITEMS</h6>
+            <h1 class="text-center pb-5">Specifications</h1>
+            <div class="accordion container py-5" id="accordionItems">
+            </div>
+
+            <h6 class="text-center pt-5" id="moreinfo">MORE INFO</h6>
+            <h1 class="text-center pb-5">Some details</h1>
+            <div class="d-flex align-items-start container pb-5">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                  <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                  <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt minus voluptas amet, quo inventore repellendus quidem autem possimus nobis illo distinctio dolores perferendis similique voluptatum, alias nemo fugiat quaerat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus mollitia aperiam excepturi pariatur quaerat? Quos qui perferendis voluptatum tenetur praesentium, laudantium ea odit animi vitae non harum quas, suscipit doloremque <a href="https://www.google.com/">visit google.</a>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro fuga ipsum quibusdam, alias deleniti ab ullam est libero nostrum obcaecati molestiae distinctio nihil exercitationem magni nobis, corrupti a reprehenderit.</p>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci atque, magni aliquid fugiat illum quaerat omnis exercitationem et unde distinctio architecto a tempore beatae ipsum doloribus minima dicta, molestias sequi?</p>
+                    <a href="tel:555-555-5555">Call us</a> <span> or </span>
+                    <a href="mailto:elcorreoquequieres@correo.com">Mail us!</a>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <ul>
+                        <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima consequuntur aliquam excepturi placeat distinctio explicabo animi veniam, amet nemo pariatur sed maiores expedita officiis eum nostrum perferendis obcaecati molestiae? Iste.</p></li>
+                        <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima consequuntur aliquam excepturi placeat distinctio explicabo animi veniam, amet nemo pariatur sed maiores expedita officiis eum nostrum perferendis obcaecati molestiae? Iste.</p></li>
+                        <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima consequuntur aliquam excepturi placeat distinctio explicabo animi veniam, amet nemo pariatur sed maiores expedita officiis eum nostrum perferendis obcaecati molestiae? Iste.</p></li>
+                        <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima consequuntur aliquam excepturi placeat distinctio explicabo animi veniam, amet nemo pariatur sed maiores expedita officiis eum nostrum perferendis obcaecati molestiae? Iste.</p></li>
+                        <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima consequuntur aliquam excepturi placeat distinctio explicabo animi veniam, amet nemo pariatur sed maiores expedita officiis eum nostrum perferendis obcaecati molestiae? Iste.</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </div>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-turquoise">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
